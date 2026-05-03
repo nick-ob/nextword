@@ -15,8 +15,8 @@ models using only core python and numpy instead of using deep learning framework
 
 ```bash
 # clone this repo
-git clone https://nick-ob/NextWord
-cd NextWord
+git clone https://nick-ob/nextword
+cd nextword
 
 # install requirements
 pip install -r requirements.txt
