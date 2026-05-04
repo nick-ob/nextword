@@ -2,6 +2,7 @@
 Loads the data from a .txt file and cleans it for usage.
 
 Usage example:
+    data = load_input("tiny_shakespeare")
 """
 import os
 import re
