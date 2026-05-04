@@ -53,6 +53,3 @@ def load_input(file: str) -> tuple[list[str], list[str]]:
     tokens_single = list(set(tokens_all))
 
     return (tokens_all, tokens_single)
-
-if __name__ == "__main__":
-     tokens_all, tokens = load_input("tiny_shakespeare.txt")
