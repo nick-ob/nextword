@@ -1,0 +1,8 @@
+the cat sat on the mat.
+the dog sat on the rug.
+the cat ate the food.
+the dog ate the bone.
+the cat slept on the mat.
+the dog slept on the rug.
+the cat sat on the rug.
+the dog sat on the mat.
