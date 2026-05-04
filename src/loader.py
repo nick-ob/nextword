@@ -7,7 +7,7 @@ Usage example:
 import os
 import re
 
-def load_input(file: str) -> list[str]:
+def load_input(file: str) -> tuple[list[str], list[str]]:
     """Load the input data using a provided filename.
     Gets the input file from the data directory and tokenises it using a
     regex key.
@@ -15,7 +15,8 @@ def load_input(file: str) -> list[str]:
     file: The input file to load (file must be in the data directory).
 
     Returns:
-        list[str]: A list of the 'tokens'.
+        tuple[list[str], list[str]]: The list of the 'tokens' in their order
+        and the list of 'tokens' without duplicates.
     """
     # get the data directory path
     src_dir: str = os.path.dirname(os.path.abspath(__file__))
@@ -46,6 +47,12 @@ def load_input(file: str) -> list[str]:
     # [^\w\s] matches single characters that arent a whitespace or a word
     # \n to include newlines as tokens
     rx = r"\w+(?:'\w+)?|[^\w\s]|\n"
-    cleaned = re.findall(rx, raw)
+    tokens_all = re.findall(rx, raw)
 
-    return cleaned 
+    # remove duplicates
+    tokens_single = list(set(tokens_all))
+
+    return (tokens_all, tokens_single)
+
+if __name__ == "__main__":
+     tokens_all, tokens = load_input("tiny_shakespeare.txt")
