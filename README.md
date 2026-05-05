@@ -20,12 +20,16 @@ cd nextword
 
 # install requirements
 pip install -r requirements.txt
+
+# run the main entrypoint filw
+python main.ju.py
 ```
 
 ## Tech Stack
 
 - **Python**
-- **NumPy**
+- **NumPy** - math
+- **Matplotlib, Seaborn** - visualisations
 
 ## License
 
