@@ -31,3 +31,38 @@ def __smoothen(data: list) -> list:
         smoothed.append(curr)
 
     return smoothed
+
+def save_cost(cost_history: list, name: str) -> None:
+    """Save the cost over iterations as a plot.
+
+    Args:
+        cost_history: A list of costs.
+        name: The name of the folder the plot should be saved under.
+    """
+    # get the filepath using provided name
+    save_dir = os.path.join(RESULTS_DIR, name)
+    os.makedirs(save_dir, exist_ok=True)
+    file_dir = os.path.join(save_dir, "cost_over_iterations.png")
+
+    # create smoothened data
+    smooth: list = __smoothen(cost_history)
+
+    # plot
+    sns.set_theme(style="whitegrid", context="notebook")
+    plt.figure(figsize=(9, 5))
+
+    sns.lineplot(data=cost_history, label="Raw", linewidth=1, alpha=0.7, color="purple")
+    sns.lineplot(data=smooth, label="Smoothened", linewidth=1.5, color="black")
+
+    plt.title("Training Cost Over Iterations")
+    plt.xlabel("Iterations")
+    plt.ylabel("Cost")
+    plt.legend()
+    plt.tight_layout()
+    # log scaling for better visibility
+    plt.xscale("symlog", linthresh=500)
+    plt.xlim(left=-5)
+
+    plt.show()
+    plt.savefig(file_dir, dpi=200)
+    plt.close()
