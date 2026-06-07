@@ -4,8 +4,10 @@ Loads the data from a .txt file and cleans it for usage.
 Usage example:
     data = load_input("tiny_shakespeare")
 """
+
 import os
 import re
+
 
 def load_input(file: str) -> tuple[list[str], list[str]]:
     """Load the input data using a provided filename.
@@ -35,7 +37,7 @@ def load_input(file: str) -> tuple[list[str], list[str]]:
     data_file = os.path.join(data_dir, file)
     try:
         with open(data_file, "r", encoding="utf-8-sig") as input:
-                raw = input.read()
+            raw = input.read()
     except Exception as e:
         raise RuntimeError(f"Failed to load {file}") from e
 

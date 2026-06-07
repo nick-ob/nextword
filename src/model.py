@@ -7,11 +7,15 @@ Usage example:
     y_train = np.array([[1]])
     network.train((x_train, y_train), 0.01, 100)
 """
+
 import os
+
 import numpy as np
-from src.loss import CCE, accuracy
-from src.layer import Layer
+
 from src.activations import Softmax
+from src.layer import Layer
+from src.loss import CCE, accuracy
+
 
 class Network:
     """A class representing the actual network.
@@ -23,6 +27,7 @@ class Network:
         __layers: The layers of the network, including activation layers.
         __history: A variable to cache the training history. Needed to save in the save function.
     """
+
     def __init__(self, *nodes: int) -> None:
         """Initialises instances using node amounts.
 
@@ -38,7 +43,9 @@ class Network:
                              representing the probability of all possilbe outputs.""")
         for node in nodes:
             if type(node) is not int or node < 1:
-                raise ValueError("""All layer node amounts must be positive integers.""")
+                raise ValueError(
+                    """All layer node amounts must be positive integers."""
+                )
 
         self.__arch: tuple[int] = nodes
         self.__layers = self.__init_layers(nodes)
@@ -92,7 +99,7 @@ class Network:
             # since there is no use for delta, it is simply discarded
 
     def __shuffle_data(
-            self, x: np.ndarray, y: np.ndarray
+        self, x: np.ndarray, y: np.ndarray
     ) -> tuple[np.ndarray, np.ndarray]:
         """Shuffle x and y data row-wise so that they still align.
 
@@ -109,7 +116,9 @@ class Network:
         # apply shuffled indices to data
         return (x[indices], y[indices])
 
-    def __display_progress(self, idx: int, e: int, batches: int, epochs: int, acc: float) -> None:
+    def __display_progress(
+        self, idx: int, e: int, batches: int, epochs: int, acc: float
+    ) -> None:
         """Display the progress of training.
 
         Args:
@@ -126,12 +135,16 @@ class Network:
         print(
             f"\rEpoch: {e}/{epochs} | "
             f"[{progress_bar}] Batch: {idx}/{batches} - Batch accuracy: {acc}% ",
-            end="", flush=True
+            end="",
+            flush=True,
         )
 
     def train(
-            self, data: tuple[np.ndarray, np.ndarray],
-            learning_rate: float, epochs: int, batch_size: int | None = None
+        self,
+        data: tuple[np.ndarray, np.ndarray],
+        learning_rate: float,
+        epochs: int,
+        batch_size: int | None = None,
     ) -> dict[str, list]:
         """Train the network on provided training data.
 
@@ -174,7 +187,9 @@ class Network:
 
             # go through all batches for the data
             i: int = 0
-            for idx, j in enumerate(range(batch_size, x.shape[0] + batch_size, batch_size)):
+            for idx, j in enumerate(
+                range(batch_size, x.shape[0] + batch_size, batch_size)
+            ):
                 # get batch & prepare variables for the next
                 x_b, y_b = x_shuffled[i:j], y_shuffled[i:j]
                 i = j
@@ -199,7 +214,9 @@ class Network:
         self.__history = history
         return history
 
-    def test(self, data: tuple[np.ndarray, np.ndarray]) -> tuple[np.ndarray, np.ndarray, float]:
+    def test(
+        self, data: tuple[np.ndarray, np.ndarray]
+    ) -> tuple[np.ndarray, np.ndarray, float]:
         """Test the network with the provided testing data.
 
         Args:
@@ -211,8 +228,18 @@ class Network:
         x, y = data
 
         pred = self.__forward_feed(x)
-        print(f"Testing accuracy: {accuracy(pred, y)}%")
         return (pred, y, accuracy(pred, y))
+
+    def predict(self, x: np.ndarray) -> np.ndarray:
+        """Predict the output for the given input.
+
+        Args:
+            x: The input data.
+
+        Returns:
+            np.ndarray: The predicted output.
+        """
+        return self.__forward_feed(x)
 
     def save(self, name: str) -> None:
         """Save all of the network weights.
@@ -236,14 +263,16 @@ class Network:
 
         # save architecture and all parameters
         np.savez(
-                save_file, allow_pickle=False,
-                arch=self.__arch,
-                cost_history=self.__history["cost"], acc_history=self.__history["accuracy"],
-                **params
+            save_file,
+            allow_pickle=False,
+            arch=self.__arch,
+            cost_history=self.__history["cost"],
+            acc_history=self.__history["accuracy"],
+            **params,
         )
 
     @classmethod
-    def load(cls, name: str) -> tuple['Network', dict[str, list]]:
+    def load(cls, name: str) -> tuple["Network", dict[str, list]]:
         """Load network from a saved file stat.
 
         Args:
@@ -260,7 +289,7 @@ class Network:
         existing_files = os.listdir(nw_dir)
         if f"{name}.npz" not in existing_files:
             raise FileNotFoundError(
-                f"Network data does not exist in {nw_dir}. Missing: {f"{name}.npz"}\n"
+                f"Network data does not exist in {nw_dir}. Missing: {f'{name}.npz'}\n"
                 f"Try checking which files exist, perhaps the wrong name was entered."
             )
 

@@ -7,11 +7,13 @@ Usage example:
     tokens_single: list[str] = ...
     (x_train, y_train), (x_test, y_test) = tokens_to_data(tokens_all, tokens_single)
 """
+
 import numpy as np
 
+
 def tokens_to_data(
-        tokens_all: list[str], tokens_single: list[str]
-    ) -> tuple[tuple[np.ndarray, np.ndarray], tuple[np.ndarray, np.ndarray]]:
+    tokens_all: list[str], tokens_single: list[str]
+) -> tuple[tuple[np.ndarray, np.ndarray], tuple[np.ndarray, np.ndarray]]:
     """One-hot encodes tokens and splits into training and testing data.
 
     Args:
@@ -44,26 +46,26 @@ def tokens_to_data(
     i = int(x_shuffled.shape[0] * 0.8)
     return ((x_shuffled[:i], y_shuffled[:i]), (x_shuffled[i:], y_shuffled[i:]))
 
-def data_to_tokens(data: np.ndarray, tokens_single: list[str]) -> list[str]:
-    """Convert one-hot encoded tokens back into original tokens.
 
-    Args:
-        data: The one-hot encoded tokens.
-        tokens_single: A list of only non-duplicate tokens.
+def token_to_data(token: str, tokens_single: list[str]) -> np.ndarray | None:
+    """Convert a word into a one-hot encoded token."""
+    if token not in tokens_single:
+        return None
 
-    Returns:
-        list[str]: The according tokens for each row.
-    """
-    # map the unique id back to each token
+    token_id: dict[str, int] = {token: i for i, token in enumerate(tokens_single)}
+    return np.eye(len(tokens_single), dtype=np.uint8)[token_id[token]]
+
+
+def data_to_top_tokens(data: np.ndarray, tokens_single: list[str]) -> dict[str, float]:
+    """Convert a one-hot encoded token into a dictionary of token probabilities."""
     id_token: dict[int, str] = {i: token for i, token in enumerate(tokens_single)}
 
-    # get the token id's
-    token_ids = np.argmax(data, axis=1)
+    top_tokens = np.argsort(data, axis=1)[:, -5:][:, ::-1]
+    top_probs = np.sort(data, axis=1)[:, -5:][:, ::-1]
 
-    # get the according tokens
-    tokens: list[str] = []
-    for i in token_ids:
-        tokens.append(id_token[i])
+    top: dict[str, float] = {}
+    for token, prob in zip(top_tokens, top_probs):
+        for t, p in zip(token, prob):
+            top[id_token[t]] = round(p * 100, 2)
 
-    return tokens
-
+    return top
