@@ -15,7 +15,7 @@ from src.model import Network
 # ## Loading input data
 
 # %%
-data: str = "mini_test.txt"
+data: str = "demo_data.txt"
 tokens_all, tokens_single = load_input(data)
 (x_train, y_train), (x_test, y_test) = tokens_to_data(tokens_all, tokens_single)
 print(f"Loaded data from {data}:")

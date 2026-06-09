@@ -1,0 +1,500 @@
+the cat likes milk
+the cat likes milk
+the cat likes milk
+the cat likes milk
+the cat likes milk
+the cat likes milk
+the cat likes milk
+the cat likes milk
+the cat likes milk
+the cat likes milk
+the dog likes bones
+the dog likes bones
+the dog likes bones
+the dog likes bones
+the dog likes bones
+the dog likes bones
+the dog likes bones
+the dog likes bones
+the dog likes bones
+the dog likes bones
+the rabbit likes carrots
+the rabbit likes carrots
+the rabbit likes carrots
+the rabbit likes carrots
+the rabbit likes carrots
+the rabbit likes carrots
+the rabbit likes carrots
+the rabbit likes carrots
+the rabbit likes carrots
+the rabbit likes carrots
+the cow likes grass
+the cow likes grass
+the cow likes grass
+the cow likes grass
+the cow likes grass
+the cow likes grass
+the cow likes grass
+the cow likes grass
+the cow likes grass
+the cow likes grass
+the horse likes hay
+the horse likes hay
+the horse likes hay
+the horse likes hay
+the horse likes hay
+the horse likes hay
+the horse likes hay
+the horse likes hay
+the horse likes hay
+the horse likes hay
+the mouse likes cheese
+the mouse likes cheese
+the mouse likes cheese
+the mouse likes cheese
+the mouse likes cheese
+the mouse likes cheese
+the mouse likes cheese
+the mouse likes cheese
+the mouse likes cheese
+the mouse likes cheese
+the bird likes seeds
+the bird likes seeds
+the bird likes seeds
+the bird likes seeds
+the bird likes seeds
+the bird likes seeds
+the bird likes seeds
+the bird likes seeds
+the bird likes seeds
+the bird likes seeds
+the goat likes leaves
+the goat likes leaves
+the goat likes leaves
+the goat likes leaves
+the goat likes leaves
+the goat likes leaves
+the goat likes leaves
+the goat likes leaves
+the goat likes leaves
+the goat likes leaves
+the duck likes ponds
+the duck likes ponds
+the duck likes ponds
+the duck likes ponds
+the duck likes ponds
+the duck likes ponds
+the duck likes ponds
+the duck likes ponds
+the duck likes ponds
+the duck likes ponds
+the bee likes flowers
+the bee likes flowers
+the bee likes flowers
+the bee likes flowers
+the bee likes flowers
+the bee likes flowers
+the bee likes flowers
+the bee likes flowers
+the bee likes flowers
+the bee likes flowers
+the capital of france is paris
+the capital of france is paris
+the capital of france is paris
+the capital of france is paris
+the capital of france is paris
+the capital of france is paris
+the capital of france is paris
+the capital of france is paris
+the capital of france is paris
+the capital of france is paris
+the capital of italy is rome
+the capital of italy is rome
+the capital of italy is rome
+the capital of italy is rome
+the capital of italy is rome
+the capital of italy is rome
+the capital of italy is rome
+the capital of italy is rome
+the capital of italy is rome
+the capital of italy is rome
+the capital of spain is madrid
+the capital of spain is madrid
+the capital of spain is madrid
+the capital of spain is madrid
+the capital of spain is madrid
+the capital of spain is madrid
+the capital of spain is madrid
+the capital of spain is madrid
+the capital of spain is madrid
+the capital of spain is madrid
+the capital of germany is berlin
+the capital of germany is berlin
+the capital of germany is berlin
+the capital of germany is berlin
+the capital of germany is berlin
+the capital of germany is berlin
+the capital of germany is berlin
+the capital of germany is berlin
+the capital of germany is berlin
+the capital of germany is berlin
+the capital of austria is vienna
+the capital of austria is vienna
+the capital of austria is vienna
+the capital of austria is vienna
+the capital of austria is vienna
+the capital of austria is vienna
+the capital of austria is vienna
+the capital of austria is vienna
+the capital of austria is vienna
+the capital of austria is vienna
+the capital of portugal is lisbon
+the capital of portugal is lisbon
+the capital of portugal is lisbon
+the capital of portugal is lisbon
+the capital of portugal is lisbon
+the capital of portugal is lisbon
+the capital of portugal is lisbon
+the capital of portugal is lisbon
+the capital of portugal is lisbon
+the capital of portugal is lisbon
+the capital of greece is athens
+the capital of greece is athens
+the capital of greece is athens
+the capital of greece is athens
+the capital of greece is athens
+the capital of greece is athens
+the capital of greece is athens
+the capital of greece is athens
+the capital of greece is athens
+the capital of greece is athens
+the capital of poland is warsaw
+the capital of poland is warsaw
+the capital of poland is warsaw
+the capital of poland is warsaw
+the capital of poland is warsaw
+the capital of poland is warsaw
+the capital of poland is warsaw
+the capital of poland is warsaw
+the capital of poland is warsaw
+the capital of poland is warsaw
+the capital of ireland is dublin
+the capital of ireland is dublin
+the capital of ireland is dublin
+the capital of ireland is dublin
+the capital of ireland is dublin
+the capital of ireland is dublin
+the capital of ireland is dublin
+the capital of ireland is dublin
+the capital of ireland is dublin
+the capital of ireland is dublin
+the capital of norway is oslo
+the capital of norway is oslo
+the capital of norway is oslo
+the capital of norway is oslo
+the capital of norway is oslo
+the capital of norway is oslo
+the capital of norway is oslo
+the capital of norway is oslo
+the capital of norway is oslo
+the capital of norway is oslo
+python was created by guido
+python was created by guido
+python was created by guido
+python was created by guido
+python was created by guido
+python was created by guido
+python was created by guido
+python was created by guido
+python was created by guido
+python was created by guido
+java was created by james
+java was created by james
+java was created by james
+java was created by james
+java was created by james
+java was created by james
+java was created by james
+java was created by james
+java was created by james
+java was created by james
+c was created by dennis
+c was created by dennis
+c was created by dennis
+c was created by dennis
+c was created by dennis
+c was created by dennis
+c was created by dennis
+c was created by dennis
+c was created by dennis
+c was created by dennis
+ruby was created by matz
+ruby was created by matz
+ruby was created by matz
+ruby was created by matz
+ruby was created by matz
+ruby was created by matz
+ruby was created by matz
+ruby was created by matz
+ruby was created by matz
+ruby was created by matz
+go was created by google
+go was created by google
+go was created by google
+go was created by google
+go was created by google
+go was created by google
+go was created by google
+go was created by google
+go was created by google
+go was created by google
+rust was created by mozilla
+rust was created by mozilla
+rust was created by mozilla
+rust was created by mozilla
+rust was created by mozilla
+rust was created by mozilla
+rust was created by mozilla
+rust was created by mozilla
+rust was created by mozilla
+rust was created by mozilla
+kotlin was created by jetbrains
+kotlin was created by jetbrains
+kotlin was created by jetbrains
+kotlin was created by jetbrains
+kotlin was created by jetbrains
+kotlin was created by jetbrains
+kotlin was created by jetbrains
+kotlin was created by jetbrains
+kotlin was created by jetbrains
+kotlin was created by jetbrains
+swift was created by apple
+swift was created by apple
+swift was created by apple
+swift was created by apple
+swift was created by apple
+swift was created by apple
+swift was created by apple
+swift was created by apple
+swift was created by apple
+swift was created by apple
+perl was created by larry
+perl was created by larry
+perl was created by larry
+perl was created by larry
+perl was created by larry
+perl was created by larry
+perl was created by larry
+perl was created by larry
+perl was created by larry
+perl was created by larry
+php was created by rasmus
+php was created by rasmus
+php was created by rasmus
+php was created by rasmus
+php was created by rasmus
+php was created by rasmus
+php was created by rasmus
+php was created by rasmus
+php was created by rasmus
+php was created by rasmus
+mercury orbits the sun
+mercury orbits the sun
+mercury orbits the sun
+mercury orbits the sun
+mercury orbits the sun
+mercury orbits the sun
+mercury orbits the sun
+mercury orbits the sun
+mercury orbits the sun
+mercury orbits the sun
+venus orbits the sun
+venus orbits the sun
+venus orbits the sun
+venus orbits the sun
+venus orbits the sun
+venus orbits the sun
+venus orbits the sun
+venus orbits the sun
+venus orbits the sun
+venus orbits the sun
+earth orbits the sun
+earth orbits the sun
+earth orbits the sun
+earth orbits the sun
+earth orbits the sun
+earth orbits the sun
+earth orbits the sun
+earth orbits the sun
+earth orbits the sun
+earth orbits the sun
+mars orbits the sun
+mars orbits the sun
+mars orbits the sun
+mars orbits the sun
+mars orbits the sun
+mars orbits the sun
+mars orbits the sun
+mars orbits the sun
+mars orbits the sun
+mars orbits the sun
+jupiter orbits the sun
+jupiter orbits the sun
+jupiter orbits the sun
+jupiter orbits the sun
+jupiter orbits the sun
+jupiter orbits the sun
+jupiter orbits the sun
+jupiter orbits the sun
+jupiter orbits the sun
+jupiter orbits the sun
+saturn orbits the sun
+saturn orbits the sun
+saturn orbits the sun
+saturn orbits the sun
+saturn orbits the sun
+saturn orbits the sun
+saturn orbits the sun
+saturn orbits the sun
+saturn orbits the sun
+saturn orbits the sun
+uranus orbits the sun
+uranus orbits the sun
+uranus orbits the sun
+uranus orbits the sun
+uranus orbits the sun
+uranus orbits the sun
+uranus orbits the sun
+uranus orbits the sun
+uranus orbits the sun
+uranus orbits the sun
+neptune orbits the sun
+neptune orbits the sun
+neptune orbits the sun
+neptune orbits the sun
+neptune orbits the sun
+neptune orbits the sun
+neptune orbits the sun
+neptune orbits the sun
+neptune orbits the sun
+neptune orbits the sun
+pluto orbits the sun
+pluto orbits the sun
+pluto orbits the sun
+pluto orbits the sun
+pluto orbits the sun
+pluto orbits the sun
+pluto orbits the sun
+pluto orbits the sun
+pluto orbits the sun
+pluto orbits the sun
+ceres orbits the sun
+ceres orbits the sun
+ceres orbits the sun
+ceres orbits the sun
+ceres orbits the sun
+ceres orbits the sun
+ceres orbits the sun
+ceres orbits the sun
+ceres orbits the sun
+ceres orbits the sun
+einstein developed relativity
+einstein developed relativity
+einstein developed relativity
+einstein developed relativity
+einstein developed relativity
+einstein developed relativity
+einstein developed relativity
+einstein developed relativity
+einstein developed relativity
+einstein developed relativity
+newton developed calculus
+newton developed calculus
+newton developed calculus
+newton developed calculus
+newton developed calculus
+newton developed calculus
+newton developed calculus
+newton developed calculus
+newton developed calculus
+newton developed calculus
+darwin developed evolution
+darwin developed evolution
+darwin developed evolution
+darwin developed evolution
+darwin developed evolution
+darwin developed evolution
+darwin developed evolution
+darwin developed evolution
+darwin developed evolution
+darwin developed evolution
+pasteur developed germ_theory
+pasteur developed germ_theory
+pasteur developed germ_theory
+pasteur developed germ_theory
+pasteur developed germ_theory
+pasteur developed germ_theory
+pasteur developed germ_theory
+pasteur developed germ_theory
+pasteur developed germ_theory
+pasteur developed germ_theory
+tesla developed alternating_current
+tesla developed alternating_current
+tesla developed alternating_current
+tesla developed alternating_current
+tesla developed alternating_current
+tesla developed alternating_current
+tesla developed alternating_current
+tesla developed alternating_current
+tesla developed alternating_current
+tesla developed alternating_current
+curie developed radioactivity
+curie developed radioactivity
+curie developed radioactivity
+curie developed radioactivity
+curie developed radioactivity
+curie developed radioactivity
+curie developed radioactivity
+curie developed radioactivity
+curie developed radioactivity
+curie developed radioactivity
+faraday developed electromagnetism
+faraday developed electromagnetism
+faraday developed electromagnetism
+faraday developed electromagnetism
+faraday developed electromagnetism
+faraday developed electromagnetism
+faraday developed electromagnetism
+faraday developed electromagnetism
+faraday developed electromagnetism
+faraday developed electromagnetism
+galileo developed astronomy
+galileo developed astronomy
+galileo developed astronomy
+galileo developed astronomy
+galileo developed astronomy
+galileo developed astronomy
+galileo developed astronomy
+galileo developed astronomy
+galileo developed astronomy
+galileo developed astronomy
+mendel developed genetics
+mendel developed genetics
+mendel developed genetics
+mendel developed genetics
+mendel developed genetics
+mendel developed genetics
+mendel developed genetics
+mendel developed genetics
+mendel developed genetics
+mendel developed genetics
+turing developed computing
+turing developed computing
+turing developed computing
+turing developed computing
+turing developed computing
+turing developed computing
+turing developed computing
+turing developed computing
+turing developed computing
+turing developed computing
